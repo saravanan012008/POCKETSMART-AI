@@ -2,25 +2,44 @@
 PocketSmart AI is an AI-powered budget planning web application built with Python, FastAPI, and Google Gemini. It helps users plan home interiors, organize parties, and explore jewelry recommendations based on their budget and preferences.
 
 ## 📁 Project Structure
-
-```text
+```
 pocketsmart-ai/
 ├── app/
 │   ├── models/
+│   │   └── schemas.py
 │   ├── routes/
+│   │   ├── auth_routes.py
+│   │   ├── planner_routes.py
+│   │   └── page_routes.py
 │   ├── services/
-│   ├── static/
+│   │   ├── gemini_utils.py
+│   │   └── recommendations.py
 │   ├── templates/
-│   ├── auth.py
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── dashboard.html
+│   │   ├── planner.html
+│   │   └── history.html
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   └── app.js
+│   ├── __init__.py
+│   ├── main.py
 │   ├── config.py
 │   ├── database.py
-│   └── main.py
+│   └── auth.py
 ├── data/
 ├── tests/
+│   └── test_app.py
 ├── .env.example
 ├── .gitignore
-├── README.md
-└── requirements.txt
+├── requirements.txt
+├── run_windows.bat
+└── README.md
 ```
 *The exact contents may vary depending on your project version.*
 
