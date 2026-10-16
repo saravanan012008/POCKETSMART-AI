@@ -139,17 +139,3 @@ python -m pytest
 
 PocketSmart AI provides planning suggestions and estimated prices for informational purposes only. Prices, product availability, and marketplace listings may change. Always verify details before purchasing.
 
-## 👨‍💻 Author
-
-Developed as a project exploring AI-powered recommendations, budget planning, and web application development.
-```
-
-### Before uploading to GitHub
-
-1. Open `README.md` in VS Code.
-2. Replace its existing content with the text above.
-3. Save using **Ctrl + S**.
-4. Replace `YOUR_GITHUB_REPOSITORY_URL` when cloning the project.
-5. Check that `.env` and `.venv/` are excluded by `.gitignore`.
-
-**Important:** The README is a starting point. Verify the Python version, actual project structure, and environment-variable names against your current code before publishing.
