@@ -3,12 +3,12 @@ PocketSmart AI is an AI-powered budget planning web application built with Pytho
 
 ## 📁 Project Structure
 
-pocketnewai(fresh)/
+
+## 📁 Project Structure
+
+```text
+pocketsmart-ai/
 ├── app/
-│   ├── main.py
-│   ├── config.py
-│   ├── database.py
-│   ├── auth.py
 │   ├── models/
 │   │   └── schemas.py
 │   ├── routes/
@@ -26,15 +26,23 @@ pocketnewai(fresh)/
 │   │   ├── dashboard.html
 │   │   ├── planner.html
 │   │   └── history.html
-│   └── static/
-│       ├── css/style.css
-│       └── js/app.js
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   └── app.js
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── database.py
+│   └── auth.py
 ├── data/
 ├── tests/
 │   └── test_app.py
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
+├── run_windows.bat
 └── README.md
 
 *The exact contents may vary depending on your project version.*
